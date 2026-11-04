@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" role="img" aria-labelledby="t d">
+<title id="t">Performance car illustration</title><desc id="d">Original vector illustration of a dark modern sports car, with cool blue highlights and subtle studio reflections.</desc>
+<defs>
+ <linearGradient id="body" x1=".1" y1="0" x2=".85" y2="1"><stop stop-color="#647b8e"/><stop offset=".18" stop-color="#263b50"/><stop offset=".52" stop-color="#101c2a"/><stop offset=".8" stop-color="#27394b"/><stop offset="1" stop-color="#070f19"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78d9ef" stop-opacity=".62"/><stop offset=".28" stop-color="#193b54"/><stop offset="1" stop-color="#091521"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#147fa4"/><stop offset=".5" stop-color="#66e6ff"/><stop offset="1" stop-color="#1587b0"/></linearGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1c7894" stop-opacity=".5"/><stop offset="1" stop-color="#09121e" stop-opacity="0"/></linearGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+ <filter id="shadow" x="-20%" y="-30%" width="140%" height="180%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<!-- floor glow -->
+<ellipse cx="550" cy="465" rx="430" ry="40" fill="#000" opacity=".7" filter="url(#shadow)"/>
+<ellipse cx="560" cy="460" rx="375" ry="27" fill="url(#floor)" filter="url(#glow)"/>
+<!-- rear glow / atmosphere -->
+<path d="M190 340c75-115 202-175 367-190 180-17 308 56 393 176" fill="none" stroke="#48ccea" stroke-opacity=".12" stroke-width="2"/>
+<!-- wheels shadow -->
+<ellipse cx="335" cy="391" rx="89" ry="89" fill="#030811"/><ellipse cx="805" cy="390" rx="91" ry="91" fill="#030811"/>
+<!-- main silhouette and body -->
+<path d="M119 358c23-31 63-52 111-67l127-41 91-92c37-36 81-55 133-58l143-5c69-2 118 23 166 75l68 75 65 26c29 12 48 31 54 56l-4 47-45 17h-49c-8-63-48-103-105-103-61 0-101 40-110 100l-350 1c-8-61-49-101-109-100-61 1-98 42-108 103l-64-6-24-28Z" fill="url(#body)" stroke="#7593a8" stroke-opacity=".65" stroke-width="3"/>
+<!-- upper body highlight -->
+<path d="m255 289 151-48 100-98c25-24 51-33 89-35l142-4c51-1 91 16 129 55l67 69-106-9-102-78c-16-11-35-17-58-17H506c-20 0-36 8-51 22l-92 87Z" fill="#92afc1" opacity=".13"/>
+<!-- windows -->
+<path d="m431 235 88-79c20-18 41-26 72-27l119-2c35 0 64 12 89 36l73 68-122-10-93-62c-16-10-30-13-52-13l-94 3c-15 1-26 6-38 17l-63 68Z" fill="url(#glass)" stroke="#8ed9ed" stroke-opacity=".42" stroke-width="2"/>
+<path d="m603 129 4 102m102-102 71 103" stroke="#8bc9dd" stroke-opacity=".38" stroke-width="3"/>
+<!-- side glass / trim -->
+<path d="m418 248 412 7" stroke="#c4e7f0" stroke-opacity=".25" stroke-width="3"/>
+<path d="m462 260 365 14" stroke="#0a1018" stroke-width="8"/>
+<!-- front / hood contours -->
+<path d="m878 259 104 35 60 31-3 33-47 8c-8-61-48-100-105-100-58 0-97 39-107 98l-267 1" fill="none" stroke="#7599ae" stroke-opacity=".45" stroke-width="3"/>
+<path d="m873 264 83 29 44 21-38-5-82-29-63-15" fill="#7896a9" opacity=".16"/>
+<path d="m934 303 89 23-8 18-75-5-42-22Z" fill="#a7e9fa" opacity=".78"/>
+<path d="m941 307 69 17" stroke="#d1f8ff" stroke-width="5" filter="url(#glow)"/>
+<!-- front intake -->
+<path d="m1006 354 48-4-6 34-51 8-25-15Z" fill="#050b13" stroke="#64859b" stroke-width="2"/>
+<path d="m1017 359 27-3m-27 11 25-3m-26 11 22-3" stroke="#6b8da2" stroke-width="2"/>
+<!-- side door & sculpt -->
+<path d="m501 265-24 89 15 35m245-122 21 111m-223-2 190-1" fill="none" stroke="#68879b" stroke-opacity=".42" stroke-width="2"/>
+<path d="m532 297 188 9-33 44-149 4" fill="#7da4b8" opacity=".08"/>
+<path d="m766 273 16 4 11 13-26-2Z" fill="#07111d" stroke="#7ea4b8" stroke-width="2"/>
+<!-- rear lamp -->
+<path d="m155 320 76-29-11 20-64 27Z" fill="#f36d65" opacity=".8"/>
+<path d="m166 322 53-20" stroke="#ffb2a3" stroke-width="4" filter="url(#glow)"/>
+<!-- lower sill -->
+<path d="m235 390 716-5-25 21-646 4Z" fill="#050b12" stroke="#45657a" stroke-width="2"/>
+<path d="m319 404 489-2" stroke="url(#blue)" stroke-width="3" opacity=".8"/>
+<!-- wheels -->
+<g>
+ <circle cx="334" cy="389" r="76" fill="#080e17" stroke="#637e91" stroke-width="5"/><circle cx="334" cy="389" r="59" fill="#1c2b39" stroke="#8fa7b7" stroke-width="3"/><circle cx="334" cy="389" r="48" fill="#0b1420" stroke="#4b6578" stroke-width="4"/>
+ <g stroke="#a5bac7" stroke-width="5" stroke-linecap="round"><path d="M334 342v94m-47-47h94m-80-33 66 66m0-66-66 66"/><path d="m334 348 0 82m-41-41h82m-70-29 58 58m0-58-58 58" stroke="#7892a5" stroke-width="2"/></g><circle cx="334" cy="389" r="15" fill="#263c4f" stroke="#9ab8c8" stroke-width="3"/><circle cx="334" cy="389" r="6" fill="#45d2f4"/>
+</g>
+<g>
+ <circle cx="805" cy="389" r="77" fill="#080e17" stroke="#637e91" stroke-width="5"/><circle cx="805" cy="389" r="60" fill="#1c2b39" stroke="#8fa7b7" stroke-width="3"/><circle cx="805" cy="389" r="48" fill="#0b1420" stroke="#4b6578" stroke-width="4"/>
+ <g stroke="#a5bac7" stroke-width="5" stroke-linecap="round"><path d="M805 342v94m-47-47h94m-80-33 66 66m0-66-66 66"/><path d="m805 348 0 82m-41-41h82m-70-29 58 58m0-58-58 58" stroke="#7892a5" stroke-width="2"/></g><circle cx="805" cy="389" r="15" fill="#263c4f" stroke="#9ab8c8" stroke-width="3"/><circle cx="805" cy="389" r="6" fill="#45d2f4"/>
+</g>
+<!-- light reflections -->
+<path d="m460 250 99-82m-61 87 93-86m-56 90 88-75" stroke="#b5eaf7" stroke-opacity=".34" stroke-width="3"/>
+<path d="M208 355c73-28 119-35 194-40m420 29c71-2 113 7 173 31" fill="none" stroke="#54d4ef" stroke-opacity=".4" stroke-width="2"/>
+<!-- technical trace accents -->
+<g fill="none" stroke="#45d2f4" stroke-opacity=".48" stroke-width="1"><path d="M118 210h102l26 26h60"/><path d="M860 150h83l28 28h52"/><circle cx="118" cy="210" r="3" fill="#45d2f4"/><circle cx="1023" cy="206" r="3" fill="#45d2f4"/></g>
+</svg>

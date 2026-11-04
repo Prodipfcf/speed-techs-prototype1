@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="112" viewBox="0 0 520 112" role="img" aria-labelledby="title desc">
+  <title id="title">SPEED TECHS</title><desc id="desc">Original SPEED TECHS brand mark with electric blue motion chevrons.</desc>
+  <g fill="none" stroke="#45d2f4" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M18 27h38L39 56H12l26 29h18"/><path d="M42 27h26L48 56h-8" opacity=".55"/>
+  </g>
+  <text x="88" y="63" fill="#f6fbff" font-family="Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="2">SPEED</text>
+  <text x="254" y="63" fill="#45d2f4" font-family="Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="2">TECHS</text>
+  <path d="M90 77h330" stroke="#36536a" stroke-width="1"/>
+  <text x="90" y="96" fill="#829bad" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="4.2">VEHICLE TECHNOLOGY  /  MANCHESTER</text>
+</svg>
